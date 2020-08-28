@@ -1,0 +1,3 @@
+export CONSUMER_KEY=3MVG9n_HvETGhr3DbQwalwF6s0EmRbizQasa8YrSnUCT4USogonl8Jq6YkY_n2AKvJYe4I3Fnly3AbJa5MF03
+export JWT_KEY_FILE=/Users/binye/Desktop/Git/certificates/server.key
+export HUB_USERNAME=yebin245@gmail.com.xjp

@@ -1,6 +1,6 @@
 public with sharing class myclass {
 	public myclass() {
-		System.debug(LoggingLevel.INFO, '*** : ');
+		System.debug(LoggingLevel.INFO, '*** Test Add: ');
 	}
 
 	public String getAppVersion() {

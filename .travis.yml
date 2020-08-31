@@ -20,8 +20,7 @@ before_install:
     - sfdx force:auth:jwt:grant -u yebin245@gmail.com.xjp -i 3MVG9n_HvETGhr3DbQwalwF6s0EmRbizQasa8YrSnUCT4USogonl8Jq6YkY_n2AKvJYe4I3Fnly3AbJa5MF03 -f assets/server.key
       --username yebin245@gmail.com.xjp --setdefaultdevhubusername -a HubOrg
 script:
-    - sfdx force:org:create -v HubOrg -s -f config/project-scratch-def.json -a ciorg --wait
-      2
+    - sfdx force:org:create -v HubOrg -s -f config/project-scratch-def.json -a ciorg --wait 10
     - sfdx force:org:display -u ciorg
     - sfdx force:source:push -u ciorg
     - sfdx force:apex:test:run -u ciorg --wait 10
